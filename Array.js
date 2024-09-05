@@ -18,19 +18,6 @@ console.log("sortde array :" + arr1.sort(compare));
 console.log("");
 
 for (let i of arr) {
-<<<<<<< Tabnine <<<<<<<
-/**//+
- * This function iterates over an array and logs each element to the console.//+
- *//+
- * @param {Array} arr - The array to iterate over.//+
- * @returns {undefined} This function does not return a value.//+
- *///+
-function logArrayElements(arr) {//+
-  for (let i of arr) {//+
-    console.log(i);//+
-  }//+
-}//+
->>>>>>> Tabnine >>>>>>>
   console.log(i);
 }
 
@@ -47,3 +34,11 @@ console.log(arr);
 
 const reducer = arr.reduce((items, curr) => items + curr);
 console.log("Sum of array elements:", reducer);
+
+const filtered = arr.filter((i) => i > 3);
+console.log(filtered);
+
+const index = arr.indexOf(100);
+console.log("Index of 100:", index);
+
+
