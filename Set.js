@@ -34,3 +34,7 @@ const squares = new Set([1, 4, 9]);
 
 // const myset = new Set(arr);
 // console.log(myset.next().value);
+
+for (let i in arr) {
+  console.log(i, arr[i]);
+}
