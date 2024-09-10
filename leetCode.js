@@ -52,3 +52,5 @@ const execute = (fnName, actions, values) => {
 // Example 1
 const output = execute("sum", actions, values);
 console.log(output); // Output: [4, 4, 1, 3, 2]
+
+
